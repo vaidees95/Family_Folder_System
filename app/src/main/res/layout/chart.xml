@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.familyfolder.vaideeswaran.healthcare.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.familyfolder.vaideeswaran.healthcare.Chart"
+        android:background="#c9ae79">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignWithParentIfMissing="true" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CHART REPORT"
+            android:textColor="@color/cardview_dark_background"
+            android:gravity="center"
+            android:textSize="45dp"
+            android:id="@+id/textView"
+
+            android:background="#c9ae79"
+            android:textStyle="bold" />
+
+
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#e55e1f"
+                android:background="#e55e1f"
+                android:id="@+id/view1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e55e1f"
+                    android:text="AGE"
+                    android:textSize="47dp"
+                    android:onClick="age"
+                    android:id="@+id/button8"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+            <View android:background="#ffffff" android:layout_width = "fill_parent" android:layout_height="2dip" android:layout_centerVertical ="true"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#68361f"
+                android:background="#8f4421"
+                android:id="@+id/view2">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#14679b"
+                    android:text="OCCUPATION"
+                    android:textSize="45dp"
+                    android:onClick="occupation"
+                    android:id="@+id/button9"
+                    android:typeface="sans"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <View android:background="#ffffff" android:layout_width = "fill_parent" android:layout_height="2dip" android:layout_centerVertical ="true" />
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#e55e1f"
+                android:background="#e55e1f"
+                android:id="@+id/view3">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0b5906"
+                    android:text="INCOME"
+                    android:onClick="income"
+                    android:textSize="47dp"
+                    android:id="@+id/button10"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <View android:background="#ffffff" android:layout_width = "fill_parent" android:layout_height="2dip" android:layout_centerVertical ="true" />
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#e55e1f"
+                android:background="#e55e1f"
+                android:id="@+id/view4">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#661d6b"
+                    android:text="SEX RATIO"
+                    android:onClick="sexratio"
+                    android:textSize="47dp"
+                    android:id="@+id/button11"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>

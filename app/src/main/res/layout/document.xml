@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.familyfolder.vaideeswaran.healthcare.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.familyfolder.vaideeswaran.healthcare.Report"
+        android:background="#cf9014">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignWithParentIfMissing="true" >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="DOCUMENT REPORT"
+                    android:textColor="@color/cardview_dark_background"
+                    android:gravity="center"
+                    android:textSize="45dp"
+                    android:id="@+id/textView"
+
+                    android:background="#cf9014"
+                    android:textStyle="bold" />
+
+
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    app:cardBackgroundColor="#e55e1f"
+                    android:background="#e55e1f"
+                    android:id="@+id/view1">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#c62516"
+                        android:text="PDF"
+                        android:textSize="60dp"
+                        android:onClick="pdf"
+                        android:id="@+id/button8"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <View android:background="#ffffff" android:layout_width = "fill_parent" android:layout_height="2dip" android:layout_centerVertical ="true"/>
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    app:cardBackgroundColor="#68361f"
+                    android:background="#8f4421"
+                    android:id="@+id/view2">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#501864"
+                        android:text="EXCEL"
+                        android:textSize="60dp"
+                        android:onClick="excel"
+                        android:id="@+id/button9"
+                        android:typeface="sans"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <View android:background="#ffffff" android:layout_width = "fill_parent" android:layout_height="2dip" android:layout_centerVertical ="true" />
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    app:cardBackgroundColor="#e55e1f"
+                    android:background="#e55e1f"
+                    android:id="@+id/view3">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#0e4533"
+                        android:text="TEXT"
+                        android:onClick="text"
+                        android:textSize="60dp"
+                        android:id="@+id/button10"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

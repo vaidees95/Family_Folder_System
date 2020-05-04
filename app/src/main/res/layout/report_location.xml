@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.familyfolder.vaideeswaran.healthcare.spinner"
+    android:background="#469ea3">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Taluk"
+            android:textSize="30dp"
+            android:textColor="#e62424"
+            android:gravity="left"
+            android:id="@+id/textView29"
+            android:background="#205419" />
+
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/spinner10"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="District"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#e62424"
+            android:gravity="left"
+            android:id="@+id/textView30"
+            android:background="#205419" />
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/spinner11"
+            android:layout_gravity="center_horizontal"
+          />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:id="@+id/button11"
+            android:gravity="center"
+            android:layout_margin="30dp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background"
+            android:theme="@style/MyButton"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

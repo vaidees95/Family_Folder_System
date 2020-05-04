@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Healthcare</string>
+    <string name="action_settings">Exit</string>
+    <string-array name="Family_type">
+        <item>select</item>
+        <item>JOINT</item>
+        <item>SEPARATE</item>
+       </string-array>
+    <string-array name="income">
+        <item>select</item>
+        <item>1Lakh-3Lakh</item>
+        <item>3Lakh-6Lakh</item>
+        <item>6Lakh-9Lakh</item>
+        <item>Above-9Lakh</item>
+        </string-array>
+
+    <string-array name="religion">
+        <item>select</item>
+
+        <item>HINDU</item>
+        <item>CHRISTIAN</item>
+        <item>MUSLIM</item>
+
+    </string-array>
+    <string-array name="occupation">
+        <item>select</item>
+        <item>Child</item>
+        <item>Student</item>
+        <item>Employed</item>
+        <item>Unemployed</item>
+        <item>Student</item>
+    </string-array>
+    <string-array name="house">
+        <item>select</item>
+        <item>OWN</item>
+        <item>RENT</item>
+
+    </string-array>
+    <string-array name="house_type">
+        <item>select</item>
+        <item>KUTTCHA</item>
+        <item>THARUCHU</item>
+        <item>AATAI</item>
+
+    </string-array>
+    <string-array name="water_supply">
+        <item>select</item>
+        <item>PURCHASED CAN</item>
+        <item>BORE</item>
+        <item>WELL</item>
+
+    </string-array>
+    <string-array name="toilet">
+        <item>select</item>
+        <item>WESTERN</item>
+        <item>INDIAN</item>
+        <item>OTHERS</item>
+
+    </string-array>
+    <string-array name="family_planning">
+        <item>select</item>
+        <item>NIL</item>
+        <item>DONE</item>
+    </string-array>
+    <string-array name="under_5">
+        <item>select</item>
+        <item>COMPLETE</item>
+        <item>NOT COMPLETE</item>
+    </string-array>
+
+
+
+
+    <string-array name="gender">
+        <item>select</item>
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+    <string-array name="marital_status">
+        <item>select</item>
+        <item>single</item>
+        <item>married</item>
+    </string-array>
+    <string-array name="smoking">
+        <item>select</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="alcohol">
+        <item>select</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+</resources>
